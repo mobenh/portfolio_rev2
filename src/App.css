@@ -7,32 +7,39 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  padding: 2rem 0;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.roadmap {
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.milestone {
+  position: relative;
+  padding: 2rem;
+  background-color: #33363c;
+  margin: 2rem 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.milestone:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 100%; /* position it at the bottom of the div */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 4rem;
+  background-color: #61dafb; /* you can choose any color */
+}
+
+/* ... keep your existing styles ... */
