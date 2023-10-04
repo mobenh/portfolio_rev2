@@ -9,7 +9,7 @@ function App() {
           <div className="dashed-line"></div>
         </div>
 
-        <div className="name">Mobenul Haq</div>
+        <div className="name">Moben Haq</div>
 
         <div className="roadmap">
           <div className="milestone">

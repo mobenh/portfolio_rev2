@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
 }
 
 .App-logo {
@@ -10,7 +11,7 @@
 .App-header {
   background-color: #282c34;
   padding: 2rem 0;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(6px + 1vmin);
   color: white;
 }
 
@@ -30,8 +31,7 @@
 }
 
 .name {
-  font-size: calc(10px + 4vmin);
-  font-weight: bold;
+  font-size: calc(6px + 2.5vmin);
   margin-bottom: 2rem;
 }
 
