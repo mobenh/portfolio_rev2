@@ -3,34 +3,29 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
 
-        <div className="dashed-line-section">
-          <div className="dashed-line"></div>
+      <div className="dashed-line-section">
+        <div className="dashed-line"></div>
+      </div>
+
+      <div className="name">Moben Haq</div>
+
+      <div className="roadmap">
+        <div className="milestone">
+          <p>Skills</p>
         </div>
 
-        <div className="name">Moben Haq</div>
-
-        <div className="roadmap">
-          <div className="milestone">
-            <h2>2015</h2>
-            <p>Started Computer Science degree at XYZ University.</p>
-          </div>
-
-          <div className="milestone">
-            <h2>2018</h2>
-            <p>Interned at ABC Company. Worked on web applications using React and Node.js.</p>
-          </div>
-
-          <div className="milestone">
-            <h2>2020</h2>
-            <p>Graduated from XYZ University. Joined DEF Corp as a Software Engineer.</p>
-          </div>
-
-          {/* ... Add more milestones as needed ... */}
+        <div className="milestone">
+          <p>Projects</p>
         </div>
-      </header>
+
+        <div className="milestone">
+          <p>2020</p>
+        </div>
+      </div>
     </div>
+
+
   );
 }
 
