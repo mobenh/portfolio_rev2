@@ -4,7 +4,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>My Roadmap Portfolio</h1>
+
+        <div className="dashed-line-section">
+          <div className="dashed-line"></div>
+        </div>
+
+        <div className="name">Mobenul Haq</div>
 
         <div className="roadmap">
           <div className="milestone">
