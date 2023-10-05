@@ -1,51 +1,62 @@
-.App {
-  text-align: center;
-  font-family: 'Balsamiq Sans', cursive;
-  min-height: 100%;
-}
+  .App {
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    min-height: 100%;
+    position: relative;
+  }
 
-html,
-body,
-#root {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: rgb(249 250 251);
-}
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249 250 251);
+  }
 
-.name {
-  font-size: calc(6px + 2.5vmin);
-  margin-bottom: 2rem;
-}
+  .name-container {
+    position: relative;
+    padding-top: 2rem;
+    text-align: center;
+  }
 
-.roadmap {
-  position: relative;
-  padding: 2rem 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
-}
+  .dotted-line {
+    margin-bottom: 1rem;
+  }
 
-.roadmap-line {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
+  .name {
+    font-size: calc(6px + 2.5vmin);
+    margin-bottom: 2rem;
+  }
 
-.milestone {
-  position: relative;
-  width: 172.3px;
-  height: 47.3px;
-  background-color: rgb(255, 255, 0);
-  border-radius: 2px;
-  border-color: rgb(0, 0, 0);
-  border-width: 2.7px;
-  border-style: solid;
-  margin: 2rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 4rem 0;
-}
+  .roadmap {
+    position: relative;
+    padding: 6rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .roadmap-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .milestone {
+    position: relative;
+    width: calc(20px + 10vw);
+    height: calc(8px + 5vw);
+    background-color: rgb(255, 255, 0);
+    border-radius: 2px;
+    border-color: rgb(0, 0, 0);
+    border-width: 2.7px;
+    border-style: solid;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vw);
+  }
