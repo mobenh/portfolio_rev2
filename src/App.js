@@ -31,8 +31,8 @@ function App() {
     <div className="App">
 
       <div className="name-container">
-        <svg className="dotted-line" viewBox={`0 0 100 20`}>
-          <line x1="50" y1="0" x2="50" y2='20' stroke="rgb(43,120,228)" strokeWidth=".25" strokeDasharray="5,5" />
+        <svg className="dotted-line" viewBox={`0 0 100 5`}>
+          <line x1="50" y1="0" x2="50" y2='20' stroke="rgb(43,120,228)" strokeWidth=".25" strokeDasharray="1,1" />
         </svg>
         <div className="name">Moben Haq</div>
       </div>
