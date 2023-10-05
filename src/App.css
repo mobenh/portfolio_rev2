@@ -4,27 +4,13 @@
   min-height: 100%;
 }
 
-
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color:rgb(249 250 251);
-}
-
-.dashed-line-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.dashed-line {
-  left: 50%;
-  transform: translateX(-50%);
-  height: 4rem;
-  width: 2px;
-  background-image: repeating-linear-gradient(180deg, #61dafb, #61dafb 5px, transparent 5px, transparent 10px);
+  background-color: rgb(249 250 251);
 }
 
 .name {
@@ -38,35 +24,28 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
-.roadmap::before {
-  content: "";
+.roadmap-line {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 2px;
-  height: calc(100% + 3vmin); 
-  background-color: #61dafb;
 }
 
 .milestone {
   position: relative;
-  padding: 2rem;
-  background-color: #33363c;
+  width: 172.3px;
+  height: 47.3px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 2px;
+  border-color: rgb(0, 0, 0);
+  border-width: 2.7px;
+  border-style: solid;
   margin: 2rem 0;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.milestone:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  top: 100%; 
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 4rem;
-  background-color: #61dafb; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem 0;
 }
