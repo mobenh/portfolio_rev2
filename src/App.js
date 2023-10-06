@@ -1,20 +1,6 @@
 import React from 'react';
 import './App.css';
 
-function RoadmapLine({ milestones }) {
-  return (
-    <svg className="roadmap-line" viewBox={`0 0 100 ${(milestones.length + 2) * 100}`}>
-      <line x1="50" y1="0" x2="50" y2="100" stroke="rgb(43,120,228)" strokeWidth=".5" />
-
-      {milestones.map((_, index) => (
-        <line x1="50" y1={(index + 1) * 100} x2="50" y2={(index + 2) * 100} stroke="rgb(43,120,228)" strokeWidth=".5" />
-      ))}
-
-      <line x1="50" y1={(milestones.length + 1) * 100} x2="50" y2={(milestones.length + 2) * 100} stroke="rgb(43,120,228)" strokeWidth=".5" />
-    </svg>
-  );
-}
-
 function Milestone({ title }) {
   return (
     <div className="milestone">
@@ -24,23 +10,33 @@ function Milestone({ title }) {
 }
 
 function App() {
-  const milestones = ['Skills', 'Projects', '2020'];
-
+  const milestones = [
+    { title: 'Skills' },
+  ];
 
   return (
     <div className="App">
+      <h1 className="name">Moben Haq</h1>
 
-      <div className="name-container">
-        <svg className="dotted-line" viewBox={`0 0 100 5`}>
-          <line x1="50" y1="0" x2="50" y2='20' stroke="rgb(43,120,228)" strokeWidth=".25" strokeDasharray="1,1" />
+        {/* Vertical line (svg1) */}
+        <svg className="svg1-vertical-line">
+          <line x1="50%" y1="0" x2="50%" y2="100%" stroke="black" />
         </svg>
-        <div className="name">Moben Haq</div>
-      </div>
 
-      <div className="roadmap">
-        <RoadmapLine milestones={milestones} />
-        {milestones.map(m => <Milestone key={m} title={m} />)}
-      </div>
+
+
+
+        {/* Horizontal line (svg2) */}
+        <svg className="svg2-horizontal-line">
+          <line x1="50%" y1="50%" x2="10%" y2="50%" stroke="black" />
+        </svg>
+
+        {/* Left vertical line (svg3) */}
+        <svg className="svg3-left-vertical-line">
+          <line x1="20%" y1="0" x2="20%" y2="50%" stroke="black" />
+        </svg>
+
+        <Milestone title={milestones[0].title} />
     </div>
   );
 }
