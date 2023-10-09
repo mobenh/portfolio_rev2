@@ -288,8 +288,8 @@ body,
   justify-content: center;
 }
 
-.detailLink:hover {
-  text-decoration: underline;
+.language1:hover, .language2:hover, .language3:hover, .language4:hover {
+  background-color: rgb(243, 201, 80);
 }
 
 .project1 {
@@ -328,6 +328,10 @@ body,
   transform: translate(-50%, -50%);
 }
 
+.project1:hover, .project2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
 .framework1 {
   width: 115px;
   height: 30px;
@@ -364,6 +368,10 @@ body,
   transform: translate(-50%, -50%);
 }
 
+.framework1:hover, .framework2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
 .infrastructure1 {
   width: 115px;
   height: 30px;
@@ -398,6 +406,144 @@ body,
   top: 45%;
   left: 70%;
   transform: translate(-50%, -50%);
+}
+
+.infrastructure1:hover, .infrastructure2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.cert1 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert2 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert3 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert1:hover, .cert2:hover, .cert3:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.contact1 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact2 {
+  width: 215px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact3 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 85%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact4 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact1:hover, .contact2:hover, .contact3:hover, .contact4:hover {
+  background-color: rgb(243, 201, 80);
 }
 
 .dotted-line-language {
@@ -438,4 +584,24 @@ body,
   width: 100%;
   height: 13%;          
   overflow: visible;
+}
+
+.dotted-line-cert {
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  width: auto;
+  height: 50%;
+  overflow: visible;
+  transform: scaleX(1.4);
+}
+
+.dotted-line-contact {
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  width: auto;
+  height: 50%;
+  overflow: visible;
+  transform: scaleX(1.4);
 }

@@ -49,16 +49,21 @@ function App() {
         Contact Me
       </div>
 
-      <div className="language1">
-        <a href="https://github.com/mobenh/Golang-AI-Bot" target="_blank" rel="noopener noreferrer" className="detailLink">
-          Golang
-        </a>
-      </div>
-      <div className="language2">
-        <a href="https://github.com/mobenh/cpp_bootcamp" target="_blank" rel="noopener noreferrer" className="detailLink">
-          C++
-        </a>
-      </div>
+      <a href="https://github.com/mobenh/Golang-AI-Bot" target="_blank" rel="noopener noreferrer">
+        <div className="language1">
+          <span className="detailLink">
+            Golang
+          </span>
+        </div>
+      </a>
+      <a href="https://github.com/mobenh/cpp_bootcamp" target="_blank" rel="noopener noreferrer">
+        <div className="language2">
+          <span className="detailLink">
+            C++
+          </span>
+        </div>
+      </a>
+
       <div className="language3">
         <a href="https://github.com/mobenh/python_bootcamp" target="_blank" rel="noopener noreferrer" className="detailLink">
           Python
@@ -92,7 +97,6 @@ function App() {
         </a>
       </div>
 
-
       <div className="infrastructure1">
         <a href="https://github.com/mobenh/terraform-aws-ec2instance" target="_blank" rel="noopener noreferrer" className="detailLink">
           Terraform
@@ -100,7 +104,42 @@ function App() {
       </div>
       <div className="infrastructure2">
         <a href="https://github.com/mobenh/terraform-aws-ec2instance" target="_blank" rel="noopener noreferrer" className="detailLink">
-          Aws
+          AWS
+        </a>
+      </div>
+
+      <div className="cert1">
+        <a href="https://www.credly.com/badges/2be8519a-87bb-4da7-bade-026d50109a5c/public_url" target="_blank" rel="noopener noreferrer" className="detailLink">
+          AWS Developer
+        </a>
+      </div>
+      <div className="cert2">
+        <a href="https://www.credly.com/badges/5c9b7eda-6fd8-4290-a72c-62cec971beb9/public_url" target="_blank" rel="noopener noreferrer" className="detailLink">
+          C++
+        </a>
+      </div>
+      <div className="cert3">
+        <a href="https://www.credly.com/badges/eeec4827-eced-4567-853b-bfe0b391f083/public_url" target="_blank" rel="noopener noreferrer" className="detailLink">
+          Security+
+        </a>
+      </div>
+
+      <div className="contact1">
+        (951)337-8563
+      </div>
+      <div className="contact2">
+        <a href="mailto:moben.h@outlook.com" target="_blank" rel="noopener noreferrer" className="detailLink">
+          moben.h@outlook.com
+        </a>
+      </div>
+      <div className="contact3">
+        <a href="https://www.linkedin.com/in/moben-haq/" target="_blank" rel="noopener noreferrer" className="detailLink">
+          linkedin
+        </a>
+      </div>
+      <div className="contact4">
+        <a href="https://github.com/mobenh" target="_blank" rel="noopener noreferrer" className="detailLink">
+          github
         </a>
       </div>
 
@@ -122,6 +161,19 @@ function App() {
 
       <svg className="dotted-line-infrastructure">
         <line x1="70%" y1="0" x2="70%" y2="100%" stroke="black" strokeDasharray="4,5" />
+      </svg>
+
+      <svg className="dotted-line-cert">
+        <line x1="55vw" y1="55%" x2="40vw" y2="40%" stroke="black" strokeDasharray="4,5" />
+        <line x1="55vw" y1="55%" x2="40vw" y2="50%" stroke="black" strokeDasharray="4,5" />
+        <line x1="55vw" y1="55%" x2="40vw" y2="60%" stroke="black" strokeDasharray="4,5" />
+      </svg>
+
+      <svg className="dotted-line-contact">
+        <line x1="26vw" y1="75%" x2="13vw" y2="60%" stroke="black" strokeDasharray="4,5" />
+        <line x1="26vw" y1="75%" x2="14vw" y2="70%" stroke="black" strokeDasharray="4,5" />
+        <line x1="26vw" y1="75%" x2="12vw" y2="80%" stroke="black" strokeDasharray="4,5" />
+        <line x1="26vw" y1="75%" x2="12vw" y2="90%" stroke="black" strokeDasharray="4,5" />
       </svg>
 
     </div>
