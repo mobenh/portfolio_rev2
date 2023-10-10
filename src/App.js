@@ -153,6 +153,10 @@ function App() {
         </div>
       </a>
 
+      <div className="summary">
+        Specializing in crafting efficient UIs with React and Angular, I harness the power of modern web frameworks and DevOps tools to develop and deploy seamless software solutions.
+      </div>
+
       <div className="contact1">
         (951)337-8563
       </div>
