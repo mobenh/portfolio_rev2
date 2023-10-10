@@ -292,6 +292,42 @@ body,
   background-color: rgb(243, 201, 80);
 }
 
+.devicon-go-original-wordmark {
+  font-size: 80px; 
+  width: auto;
+  position: absolute;
+  top: 10.5%;
+  left: 76%;
+  transform: translate(70%);
+}
+
+.devicon-cplusplus-plain {
+  font-size: 47px; 
+  width: auto;
+  position: absolute;
+  top: 17%;
+  left: 76%;
+  transform: translate(150%);
+}
+
+.devicon-python-plain {
+  font-size: 47px; 
+  width: auto;
+  position: absolute;
+  top: 22.5%;
+  left: 76%;
+  transform: translate(150%);
+}
+
+.devicon-javascript-plain {
+  font-size: 47px; 
+  width: auto;
+  position: absolute;
+  top: 28%;
+  left: 76%;
+  transform: translate(150%);
+}
+
 .project1 {
   width: 250px;
   height: 30px;
@@ -368,6 +404,24 @@ body,
   transform: translate(-50%, -50%);
 }
 
+.devicon-react-original {
+  font-size: 55px; 
+  width: auto;
+  position: absolute;
+  top: 36%;
+  left: 38%;
+  transform: translate(90%);
+}
+
+.devicon-angularjs-plain {
+  font-size: 55px; 
+  width: auto;
+  position: absolute;
+  top: 43%;
+  left: 38%;
+  transform: translate(90%);
+}
+
 .framework1:hover, .framework2:hover {
   background-color: rgb(243, 201, 80);
 }
@@ -406,6 +460,24 @@ body,
   top: 45%;
   left: 70%;
   transform: translate(-50%, -50%);
+}
+
+.devicon-terraform-plain {
+  font-size: 50px; 
+  width: auto;
+  position: absolute;
+  top: 37.5%;
+  left: 70%;
+  transform: translate(190%);
+}
+
+.devicon-amazonwebservices-plain-wordmark {
+  font-size: 110px; 
+  width: auto;
+  position: absolute;
+  top: 41%;
+  left: 71%;
+  transform: translate(70%);
 }
 
 .infrastructure1:hover, .infrastructure2:hover {
@@ -545,6 +617,25 @@ body,
 .contact1:hover, .contact2:hover, .contact3:hover, .contact4:hover {
   background-color: rgb(243, 201, 80);
 }
+
+.devicon-linkedin-plain {
+  font-size: 45px; 
+  width: auto;
+  position: absolute;
+  top: 82.5%;
+  left: 13%;
+  transform: translate(-70%);
+}
+
+.devicon-github-original {
+  font-size: 45px; 
+  width: auto;
+  position: absolute;
+  top: 87.5%;
+  left: 13%;
+  transform: translate(-70%);
+}
+
 
 .dotted-line-language {
   position: absolute;
