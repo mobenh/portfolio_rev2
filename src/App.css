@@ -4,6 +4,7 @@
   min-height: 100%;
   position: relative;
   overflow: hidden;
+  margin-top: 1%;
 }
 
 html,
@@ -296,7 +297,7 @@ body,
 }
 
 .devicon-go-original-wordmark {
-  font-size: 80px;
+  font-size: 70px;
   width: auto;
   position: absolute;
   top: 10.5%;
@@ -305,7 +306,7 @@ body,
 }
 
 .devicon-cplusplus-plain {
-  font-size: 47px;
+  font-size: 40px;
   width: auto;
   position: absolute;
   top: 17%;
@@ -314,7 +315,7 @@ body,
 }
 
 .devicon-python-plain {
-  font-size: 47px;
+  font-size: 40px;
   width: auto;
   position: absolute;
   top: 22.5%;
@@ -323,7 +324,7 @@ body,
 }
 
 .devicon-javascript-plain {
-  font-size: 47px;
+  font-size: 40px;
   width: auto;
   position: absolute;
   top: 28%;
@@ -637,7 +638,8 @@ body,
   border-radius: 2px;
   margin: 0;
   display: flex;
-  text-align: left;  /* This will align the text to the left */
+  text-align: left;
+  /* This will align the text to the left */
   font-size: 16px;
   position: absolute;
   z-index: 1;
@@ -649,7 +651,7 @@ body,
 
 
 .devicon-linkedin-plain {
-  font-size: 45px;
+  font-size: 40px;
   width: auto;
   position: absolute;
   top: 82.5%;
@@ -658,7 +660,7 @@ body,
 }
 
 .devicon-github-original {
-  font-size: 45px;
+  font-size: 40px;
   width: auto;
   position: absolute;
   top: 87.5%;
@@ -729,12 +731,12 @@ body,
 
 @media (max-width: 650px) {
   .App {
-    transform: scale(0.6);
-    transform-origin: center;
+    transform: scale(0.6, .65);
+    transform-origin: center top;
 
     margin-left: -35%;
     margin-right: -35%;
-    margin-top: -20%;
+    margin-top: 10%;
   }
 
   .dotted-line-cert,
@@ -743,4 +745,77 @@ body,
   .dotted-line-project {
     display: none;
   }
+
+  .devicon-go-original-wordmark {
+    font-size: 55px;
+    width: auto;
+    position: absolute;
+    top: 11.5%;
+    left: 78%;
+    transform: translate(70%);
+  }
+
+  .devicon-cplusplus-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 79%;
+    transform: translate(150%);
+  }
+
+  .devicon-python-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 23.5%;
+    left: 79%;
+    transform: translate(150%);
+  }
+
+  .devicon-javascript-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 29%;
+    left: 79%;
+    transform: translate(150%);
+  }
+
+  .devicon-react-original {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    transform: translate(90%);
+  }
+
+  .devicon-angularjs-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    transform: translate(90%);
+  }
+
+  .devicon-linkedin-plain {
+    font-size: 32px;
+    width: auto;
+    position: absolute;
+    top: 83%;
+    left: 13%;
+    transform: translate(-70%);
+  }
+
+  .devicon-github-original {
+    font-size: 32px;
+    width: auto;
+    position: absolute;
+    top: 88%;
+    left: 13%;
+    transform: translate(-70%);
+  }
+
 }
