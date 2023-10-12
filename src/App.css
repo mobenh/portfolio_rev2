@@ -1,62 +1,988 @@
+.App {
+  text-align: center;
+  font-family: 'Balsamiq Sans', cursive;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1%;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249 250 251);
+}
+
+.name {
+  font-size: 35px;
+  margin: 0;
+}
+
+.roadmap {
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.milestone1 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.milestone2 {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 35%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.milestone3 {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 52.5%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.milestone4 {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 52.5%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.milestone5 {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 73%;
+  left: 87.5%;
+  transform: translate(-50%, -50%);
+}
+
+.milestone6 {
+  width: 130px;
+  height: 30px;
+  background-color: rgb(255, 255, 0);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 82.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vLine1 {
+  position: absolute;
+  top: 6%;
+  left: 0;
+  transform: translateY(0%);
+  width: 100%;
+  height: 9%;
+  overflow: visible;
+}
+
+.hLine2 {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 50%;
+  overflow: visible;
+}
+
+.vLine3 {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: translateY(0%);
+  width: 50%;
+  height: 75%;
+  overflow: visible;
+}
+
+.hLine4 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 175%;
+  height: 50%;
+  overflow: visible;
+}
+
+.vLine5 {
+  position: absolute;
+  top: 52.5%;
+  left: 0;
+  transform: translateY(0%);
+  width: 100%;
+  height: 60%;
+  overflow: visible;
+}
+
+.hLine6 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 175%;
+  height: 50%;
+  overflow: visible;
+}
+
+.vLine7 {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  transform: translateY(0%);
+  width: 100%;
+  height: 20%;
+  overflow: visible;
+}
+
+.language1 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 15%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.language2 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.language3 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.language4 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.detailLink {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language1:hover,
+.language2:hover,
+.language3:hover,
+.language4:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.devicon-go-original-wordmark {
+  font-size: 70px;
+  width: auto;
+  position: absolute;
+  top: 10.5%;
+  left: 76%;
+  transform: translate(70%);
+}
+
+.devicon-cplusplus-plain {
+  font-size: 40px;
+  width: auto;
+  position: absolute;
+  top: 17%;
+  left: 76%;
+  transform: translate(150%);
+}
+
+.devicon-python-plain {
+  font-size: 40px;
+  width: auto;
+  position: absolute;
+  top: 22.5%;
+  left: 76%;
+  transform: translate(150%);
+}
+
+.devicon-javascript-plain {
+  font-size: 40px;
+  width: auto;
+  position: absolute;
+  top: 28%;
+  left: 76%;
+  transform: translate(150%);
+}
+
+.project1 {
+  width: 250px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.project2 {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.project1:hover,
+.project2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.framework1 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.framework2 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.devicon-react-original {
+  font-size: 55px;
+  width: auto;
+  position: absolute;
+  top: 36%;
+  left: 38%;
+  transform: translate(90%);
+}
+
+.devicon-angularjs-plain {
+  font-size: 55px;
+  width: auto;
+  position: absolute;
+  top: 43%;
+  left: 38%;
+  transform: translate(90%);
+}
+
+.framework1:hover,
+.framework2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.infrastructure1 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.infrastructure2 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 45%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.devicon-terraform-plain {
+  font-size: 50px;
+  width: auto;
+  position: absolute;
+  top: 37.5%;
+  left: 70%;
+  transform: translate(190%);
+}
+
+.devicon-amazonwebservices-plain-wordmark {
+  font-size: 110px;
+  width: auto;
+  position: absolute;
+  top: 41%;
+  left: 71%;
+  transform: translate(70%);
+}
+
+.infrastructure1:hover,
+.infrastructure2:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.cert1 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert2 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 70%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert3 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+}
+
+.cert1:hover,
+.cert2:hover,
+.cert3:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.contact1 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 75%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact2 {
+  width: 215px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact3 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 85%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact4 {
+  width: 115px;
+  height: 30px;
+  background-color: rgb(255, 229, 153);
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: absolute;
+  z-index: 1;
+  top: 90%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.contact1:hover,
+.contact2:hover,
+.contact3:hover,
+.contact4:hover {
+  background-color: rgb(243, 201, 80);
+}
+
+.summary {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  border: 2.7px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  margin: 0;
+  display: flex;
+  text-align: left;
+  /* This will align the text to the left */
+  font-size: 16px;
+  position: absolute;
+  z-index: 1;
+  top: 63.5%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.devicon-linkedin-plain {
+  font-size: 40px;
+  width: auto;
+  position: absolute;
+  top: 82.5%;
+  left: 13%;
+  transform: translate(-70%);
+}
+
+.devicon-github-original {
+  font-size: 40px;
+  width: auto;
+  position: absolute;
+  top: 87.5%;
+  left: 13%;
+  transform: translate(-70%);
+}
+
+.dotted-line-language {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: auto;
+  height: 100%;
+  overflow: visible;
+  transform: scaleX(1.5);
+}
+
+.dotted-line-project {
+  position: absolute;
+  top: 15%;
+  left: 17%;
+  width: auto;
+  height: 50%;
+  overflow: visible;
+  transform: scaleX(1.4);
+}
+
+.dotted-line-framework {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(0%);
+  width: 100%;
+  height: 13%;
+  overflow: visible;
+}
+
+.dotted-line-infrastructure {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  transform: translateY(0%);
+  width: 100%;
+  height: 13%;
+  overflow: visible;
+}
+
+.dotted-line-cert {
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  width: auto;
+  height: 50%;
+  overflow: visible;
+  transform: scaleX(1.4);
+}
+
+.dotted-line-contact {
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  width: auto;
+  height: 50%;
+  overflow: visible;
+  transform: scaleX(1.4);
+}
+
+@media (max-width: 650px) {
   .App {
-    text-align: center;
-    font-family: 'Balsamiq Sans', cursive;
-    min-height: 100%;
-    position: relative;
+    transform: scale(0.6, .65);
+    transform-origin: center top;
+
+    margin-left: -35%;
+    margin-right: -35%;
+    margin-top: 10%;
   }
 
-  html,
-  body,
-  #root {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(249 250 251);
+  .dotted-line-cert,
+  .dotted-line-contact,
+  .dotted-line-language,
+  .dotted-line-project {
+    display: none;
   }
 
-  .name-container {
-    position: relative;
-    padding-top: 2rem;
-    text-align: center;
-  }
-
-  .dotted-line {
-    margin-bottom: 1rem;
-  }
-
-  .name {
-    font-size: calc(6px + 2.5vmin);
-    margin-bottom: 2rem;
-  }
-
-  .roadmap {
-    position: relative;
-    padding: 6rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-  }
-
-  .roadmap-line {
+  .devicon-go-original-wordmark {
+    font-size: 55px;
+    width: auto;
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 11.5%;
+    left: 78%;
+    transform: translate(70%);
   }
 
-  .milestone {
-    position: relative;
-    width: calc(20px + 10vw);
-    height: calc(8px + 5vw);
-    background-color: rgb(255, 255, 0);
-    border-radius: 2px;
-    border-color: rgb(0, 0, 0);
-    border-width: 2.7px;
-    border-style: solid;
-    margin: 2rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 1.5vw);
+  .devicon-cplusplus-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 18%;
+    left: 79%;
+    transform: translate(150%);
   }
+
+  .devicon-python-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 23.5%;
+    left: 79%;
+    transform: translate(150%);
+  }
+
+  .devicon-javascript-plain {
+    font-size: 30px;
+    width: auto;
+    position: absolute;
+    top: 29%;
+    left: 79%;
+    transform: translate(150%);
+  }
+
+  .devicon-react-original {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    transform: translate(90%);
+  }
+
+  .devicon-angularjs-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 43%;
+    left: 40%;
+    transform: translate(90%);
+  }
+
+  .devicon-terraform-plain {
+    font-size: 37px;
+    width: auto;
+    position: absolute;
+    top: 37%;
+    left: 70%;
+    transform: translate(190%);
+  }
+  
+  .devicon-amazonwebservices-plain-wordmark {
+    font-size: 95px;
+    width: auto;
+    position: absolute;
+    top: 40%;
+    left: 71%;
+    transform: translate(70%);
+  }
+
+  .devicon-linkedin-plain {
+    font-size: 32px;
+    width: auto;
+    position: absolute;
+    top: 83%;
+    left: 13%;
+    transform: translate(-70%);
+  }
+
+  .devicon-github-original {
+    font-size: 32px;
+    width: auto;
+    position: absolute;
+    top: 88%;
+    left: 13%;
+    transform: translate(-70%);
+  }
+
+}
+
+@media (min-width: 1550px) {
+  .devicon-go-original-wordmark {
+    font-size: 70px;
+    width: auto;
+    position: absolute;
+    top: 12.5%;
+    left: 76%;
+    transform: translate(70%);
+  }
+  
+  .devicon-cplusplus-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 18.5%;
+    left: 76%;
+    transform: translate(150%);
+  }
+  
+  .devicon-python-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 23.5%;
+    left: 76%;
+    transform: translate(150%);
+  }
+  
+  .devicon-javascript-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 29%;
+    left: 76%;
+    transform: translate(150%);
+  }
+
+  .devicon-react-original {
+    font-size: 55px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    transform: translate(90%);
+  }
+  
+  .devicon-angularjs-plain {
+    font-size: 55px;
+    width: auto;
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    transform: translate(90%);
+  }
+
+  .devicon-terraform-plain {
+    font-size: 50px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    left: 70.5%;
+    transform: translate(190%);
+  }
+  
+  .devicon-amazonwebservices-plain-wordmark {
+    font-size: 120px;
+    width: auto;
+    position: absolute;
+    top: 42%;
+    left: 71%;
+    transform: translate(70%);
+  }
+  
+  .devicon-linkedin-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 84%;
+    left: 19%;
+    transform: translate(-70%);
+  }
+  
+  .devicon-github-original {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 89%;
+    left: 19%;
+    transform: translate(-70%);
+  }
+  
+  .summary {
+    width: 500px;
+    height: 100px;
+    background-color: white;
+    border: 2.7px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    margin: 0;
+    display: flex;
+    text-align: left;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 63.5%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+
+  .dotted-line-language {
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    width: auto;
+    height: 100%;
+    overflow: visible;
+    transform: scaleX(1.9);
+  }
+  
+  .dotted-line-project {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.9);
+  }
+  
+
+  .dotted-line-cert {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.4);
+  }
+
+  .dotted-line-contact {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.6);
+  }
+}
