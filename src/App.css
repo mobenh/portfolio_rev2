@@ -835,3 +835,137 @@ body,
   }
 
 }
+
+@media (min-width: 1550px) {
+  .devicon-go-original-wordmark {
+    font-size: 70px;
+    width: auto;
+    position: absolute;
+    top: 12.5%;
+    left: 76%;
+    transform: translate(70%);
+  }
+  
+  .devicon-cplusplus-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 18.5%;
+    left: 76%;
+    transform: translate(150%);
+  }
+  
+  .devicon-python-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 23.5%;
+    left: 76%;
+    transform: translate(150%);
+  }
+  
+  .devicon-javascript-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 29%;
+    left: 76%;
+    transform: translate(150%);
+  }
+
+  .devicon-react-original {
+    font-size: 55px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    left: 37%;
+    transform: translate(90%);
+  }
+  
+  .devicon-angularjs-plain {
+    font-size: 55px;
+    width: auto;
+    position: absolute;
+    top: 43%;
+    left: 37%;
+    transform: translate(90%);
+  }
+
+  .devicon-terraform-plain {
+    font-size: 50px;
+    width: auto;
+    position: absolute;
+    top: 38%;
+    left: 70.5%;
+    transform: translate(190%);
+  }
+  
+  .devicon-amazonwebservices-plain-wordmark {
+    font-size: 120px;
+    width: auto;
+    position: absolute;
+    top: 42%;
+    left: 71%;
+    transform: translate(70%);
+  }
+  
+  .devicon-linkedin-plain {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 84%;
+    left: 19%;
+    transform: translate(-70%);
+  }
+  
+  .devicon-github-original {
+    font-size: 40px;
+    width: auto;
+    position: absolute;
+    top: 89%;
+    left: 19%;
+    transform: translate(-70%);
+  }
+  
+
+  .dotted-line-language {
+    position: absolute;
+    top: 15%;
+    left: 46%;
+    width: auto;
+    height: 100%;
+    overflow: visible;
+    transform: scaleX(1.9);
+  }
+  
+  .dotted-line-project {
+    position: absolute;
+    top: 15%;
+    left: 16%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.9);
+  }
+  
+
+  .dotted-line-cert {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.4);
+  }
+
+  .dotted-line-contact {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    width: auto;
+    height: 50%;
+    overflow: visible;
+    transform: scaleX(1.6);
+  }
+}
