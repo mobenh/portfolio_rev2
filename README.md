@@ -3,6 +3,7 @@
 Welcome to Moben Haq's portfolio built with React! This project showcases a roadmap-style portfolio to represent professional milestones, experience, and contact information.
 
 ## Portfolio Screenshot
+![image](https://github.com/mobenh/react-portfolio/assets/96225596/b4936991-1960-4ae2-a627-6476a219ad4c)
 
 
 ## Features
